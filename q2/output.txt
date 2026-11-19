@@ -1,0 +1,117 @@
+========== MODEL INFORMATION ==========
+Number of joints: 30
+Number of actuators: 29
+Number of bodies: 31
+
+========== JOINTS ==========
+0 floating_base_joint
+1 left_hip_pitch_joint
+2 left_hip_roll_joint
+3 left_hip_yaw_joint
+4 left_knee_joint
+5 left_ankle_pitch_joint
+6 left_ankle_roll_joint
+7 right_hip_pitch_joint
+8 right_hip_roll_joint
+9 right_hip_yaw_joint
+10 right_knee_joint
+11 right_ankle_pitch_joint
+12 right_ankle_roll_joint
+13 waist_yaw_joint
+14 waist_roll_joint
+15 waist_pitch_joint
+16 left_shoulder_pitch_joint
+17 left_shoulder_roll_joint
+18 left_shoulder_yaw_joint
+19 left_elbow_joint
+20 left_wrist_roll_joint
+21 left_wrist_pitch_joint
+22 left_wrist_yaw_joint
+23 right_shoulder_pitch_joint
+24 right_shoulder_roll_joint
+25 right_shoulder_yaw_joint
+26 right_elbow_joint
+27 right_wrist_roll_joint
+28 right_wrist_pitch_joint
+29 right_wrist_yaw_joint
+
+========== ACTUATORS ==========
+0 left_hip_pitch_joint
+1 left_hip_roll_joint
+2 left_hip_yaw_joint
+3 left_knee_joint
+4 left_ankle_pitch_joint
+5 left_ankle_roll_joint
+6 right_hip_pitch_joint
+7 right_hip_roll_joint
+8 right_hip_yaw_joint
+9 right_knee_joint
+10 right_ankle_pitch_joint
+11 right_ankle_roll_joint
+12 waist_yaw_joint
+13 waist_roll_joint
+14 waist_pitch_joint
+15 left_shoulder_pitch_joint
+16 left_shoulder_roll_joint
+17 left_shoulder_yaw_joint
+18 left_elbow_joint
+19 left_wrist_roll_joint
+20 left_wrist_pitch_joint
+21 left_wrist_yaw_joint
+22 right_shoulder_pitch_joint
+23 right_shoulder_roll_joint
+24 right_shoulder_yaw_joint
+25 right_elbow_joint
+26 right_wrist_roll_joint
+27 right_wrist_pitch_joint
+28 right_wrist_yaw_joint
+
+========== HAND / ARM BODIES ==========
+17 left_shoulder_pitch_link
+18 left_shoulder_roll_link
+19 left_shoulder_yaw_link
+20 left_elbow_link
+21 left_wrist_roll_link
+22 left_wrist_pitch_link
+23 left_wrist_yaw_link
+24 right_shoulder_pitch_link
+25 right_shoulder_roll_link
+26 right_shoulder_yaw_link
+27 right_elbow_link
+28 right_wrist_roll_link
+29 right_wrist_pitch_link
+30 right_wrist_yaw_link
+
+
+left_wrist_yaw_link [-0.01695908  0.22180134  0.7209036 ]
+
+========== ACTUATOR DETAILS ==========
+0 left_hip_pitch_joint initial control = 0.0
+1 left_hip_roll_joint initial control = 0.0
+2 left_hip_yaw_joint initial control = 0.0
+3 left_knee_joint initial control = 0.0
+4 left_ankle_pitch_joint initial control = 0.0
+5 left_ankle_roll_joint initial control = 0.0
+6 right_hip_pitch_joint initial control = 0.0
+7 right_hip_roll_joint initial control = 0.0
+8 right_hip_yaw_joint initial control = 0.0
+9 right_knee_joint initial control = 0.0
+10 right_ankle_pitch_joint initial control = 0.0
+11 right_ankle_roll_joint initial control = 0.0
+12 waist_yaw_joint initial control = 0.0
+13 waist_roll_joint initial control = 0.0
+14 waist_pitch_joint initial control = 0.0
+15 left_shoulder_pitch_joint initial control = 0.2
+16 left_shoulder_roll_joint initial control = 0.2
+17 left_shoulder_yaw_joint initial control = 0.0
+18 left_elbow_joint initial control = 1.28
+19 left_wrist_roll_joint initial control = 0.0
+20 left_wrist_pitch_joint initial control = 0.0
+21 left_wrist_yaw_joint initial control = 0.0
+22 right_shoulder_pitch_joint initial control = 0.2
+23 right_shoulder_roll_joint initial control = -0.2
+24 right_shoulder_yaw_joint initial control = 0.0
+25 right_elbow_joint initial control = 1.28
+26 right_wrist_roll_joint initial control = 0.0
+27 right_wrist_pitch_joint initial control = 0.0
+28 right_wrist_yaw_joint initial control = 0.0

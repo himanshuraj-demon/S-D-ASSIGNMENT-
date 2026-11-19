@@ -1,0 +1,38 @@
+<!-- Unitree G1 Apple Toss: Apple Asset XML Snippet -->
+<mujoco model="apple_asset">
+  <asset>
+    <!-- Realistic Apple Materials -->
+    <texture name="apple_red_tex" type="2d" builtin="gradient" rgb1="0.95 0.12 0.08" rgb2="0.65 0.04 0.02" width="256" height="256"/>
+    <material name="apple_skin" texture="apple_red_tex" specular="0.8" shininess="0.7" reflectance="0.2"/>
+    <material name="apple_stem" rgba="0.32 0.18 0.08 1" specular="0.2" shininess="0.1"/>
+    <material name="apple_leaf" rgba="0.18 0.75 0.18 1" specular="0.5" shininess="0.5"/>
+  </asset>
+
+  <worldbody>
+    <!-- Physical Apple Body with 6-DOF Free Joint -->
+    <body name="apple" pos="0 0 1.0">
+      <freejoint name="apple_free"/>
+
+      <!-- Separate Physical Collision Sphere (group 3 for collisions) -->
+      <geom name="apple_collision" type="sphere" size="0.035" mass="0.15" 
+            friction="1.2 0.01 0.001" contype="1" conaffinity="1" group="3" priority="1"/>
+
+      <!-- High-Quality Visual Representation (group 2, contype 0, conaffinity 0) -->
+      <!-- Main apple sphere -->
+      <geom name="apple_body_vis" type="sphere" size="0.035" material="apple_skin" 
+            contype="0" conaffinity="0" group="2"/>
+      
+      <!-- Upper apple crown taper -->
+      <geom name="apple_upper_vis" type="sphere" pos="0 0 0.012" size="0.028" material="apple_skin" 
+            contype="0" conaffinity="0" group="2"/>
+
+      <!-- Apple Stem -->
+      <geom name="apple_stem_vis" type="cylinder" pos="0 0 0.040" size="0.0022 0.010" 
+            quat="0.98 0.15 0 0.1" material="apple_stem" contype="0" conaffinity="0" group="2"/>
+
+      <!-- Fresh Green Leaf -->
+      <geom name="apple_leaf_vis" type="ellipsoid" pos="0.008 0.004 0.046" size="0.013 0.006 0.002" 
+            quat="0.88 0.25 0.38 -0.15" material="apple_leaf" contype="0" conaffinity="0" group="2"/>
+    </body>
+  </worldbody>
+</mujoco>
